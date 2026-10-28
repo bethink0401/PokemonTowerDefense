@@ -1,0 +1,45 @@
+# ---------- 构建产物 ----------
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+*.cmake.in
+qrc_*.cpp
+moc_*.cpp
+*.moc
+ui_*.h
+.qmake.stash
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.app/
+*.dSYM/
+debug/
+release/
+
+# ---------- Qt Creator / IDE ----------
+*.pro.user
+*.pro.user.*
+*.autosave
+.qtcreator/
+.idea/
+.vscode/
+*.swp
+
+# ---------- Python（tools/ 下的脚本） ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
